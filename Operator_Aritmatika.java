@@ -3,7 +3,7 @@
 package pekan3;
 
 import java.util.Scanner;
-public class OperatorAritmatika {
+public class Operator_Aritmatika {
 	public static void main(String[] args) {
 		int A1;
 		int A2;
