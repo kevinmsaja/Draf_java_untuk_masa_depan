@@ -1,6 +1,6 @@
 package pekan3;
 import java.util.Scanner;
-public class OperatorAssignment {
+public class Operator_Assignment {
 	public static void main(String[] args) {
 		int A1;
 		int A2;
