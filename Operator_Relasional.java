@@ -1,6 +1,6 @@
 package pekan3;
 import java.util.Scanner;
-public class Operator_Relasional {
+public class OperatorRelasional {
 	public static void main(String[] args) {
 		int A1;
 		int A2;
@@ -14,9 +14,14 @@ public class Operator_Relasional {
 		hasil = A1 > A2;// apakah A1 lebih besar A2?
 		System.out.println("A1 > A2 = " + hasil);
 		hasil = A1 < A2;// apakah A1 lebih kecil A2?
-		System.out.println("A1 < A2 = " +hasil);
+		System.out.println("A1 < A2 = " + hasil);
 		hasil = A1 >= A2;// apakah A1 lebih besar sama dengan A2?
-		System.out.println("A1 >= A2 = " +hasil);
+		System.out.println("A1 >= A2 = " + hasil);
 		hasil = A1 <= A2;// apakah A1 lebih kecil sama dengan A2?
+		System.out.println("A1 <= A2 = " + hasil);
+		hasil = A1 == A2;// apakah A1 lebih kecil sama dengan A2?
+		System.out.println("A1 == A2 = " + hasil);
+		hasil = A1 != A2;// apakah A1 lebih kecil sama dengan A2?
+		System.out.println("A1 != A2 = " + hasil);
 	}
 }
